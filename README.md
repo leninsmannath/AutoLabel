@@ -2,8 +2,8 @@
 Automatic UILabel value setter
 
 
-Import AutoLabel.swift to into your project.
+1. Import AutoLabel.swift to into your project.
 
-Give the key to the label in storyboard.
+2. Give the key to the label in storyboard.
 
-Call the func setLblValue(dict : NSMutableDictionary)
+3. Call the func setLblValue(dict : NSMutableDictionary)
