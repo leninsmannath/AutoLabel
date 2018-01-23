@@ -12,7 +12,7 @@ extension UIView {
         for label in labels {
             if let key = label.accessibilityHint {
                 if dict[key] != nil{
-                    label.text =  dict[key]! as? String
+                    label.text =  "\( dict[key]!)"
                 } else{
                     label.text = "" //unavailable of value
                 }
